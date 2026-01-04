@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- NAVBAR-->
+    <nav>
+        <div class="left">
+            <a href="/">Kaito Namatame</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/knamatame0729" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/kaito-namatame-a11861264/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>LinkedIn</span>
+            </a>
+
+            <a href="mailto:knamatam@asu.edu">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1: Hero -->
+        <section class="hero-section">
+            <div calss="text">
+                <h2>
+                    Hi, I'm Kaito 👋
+                </h2>
+                <p>
+                    I'm currently Master's student in Robotics and Autonomous Systems at ASU (Arizona State University). I enjoy working across hardware and software, and I like learning by building and experimenting. Outside of robotics, I enjoy running, playing soccer or pickball, or watching Formula 1 races 🏎️
+                </p>
+
+                <div class="links">
+                    <a href="#education">
+                        <i class="fa-solid fa-school"></i>
+                        <span>Education</span>
+                    </a>
+                    
+                    <a href="#projects">
+                        <i class="fa-solid fa-robot"></i>
+                        <span>Projects</span>
+                    </a>
+                    
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contact</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                <img src="images/example_1_cropped.webp" alt="Kaito Namatame headshot">
+            </div>
+        </section>
+
+        <!-- SECTION 2: Education -->
+        <section id="education" class="education-section">
+            <h2>
+                Education
+            </h2>
+
+            <div class="education-container">
+                <div class="education-card">
+                    <div class="edu-logo-wrapper">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Arizona_State_University_logo.svg/1024px-Arizona_State_University_logo.svg.png" alt="University Logo" class="edu-logo asu-logo">
+                    </div>
+                    <div class="edu-content">
+                        <div class="edu-header">
+                            <h3>Arizona State University</h3>
+                            <span class="date">Apr. 2024 - May. 2026</span>
+                        </div>
+                        <p class="major">M.S. in Robotics & Autonomous Systems</p>
+                        <div class="edu-details">
+                            <p><strong>Research Theme:</strong> LLM Generated Parametric Bias for VLA </p>
+                            <p><strong>GPA:</strong> <span>3.85 / 4.0</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="education-card">
+                    <div class="edu-logo-wrapper">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Takushoku_University_Logo.svg/960px-Takushoku_University_Logo.svg.png" alt="University Logo" class="edu-logo">
+                    </div>
+                    <div class="edu-content">
+                        <div class="edu-header">
+                            <h3>Takushoku University</h3>
+                            <span class="date">Apr. 2020 - Mar. 2024</span>
+                        </div>
+                        <p class="major">B.S. in Mechanical  Engineering</p>
+                        <div class="edu-details">
+                            <p><strong>Research Theme:</strong> Development of Ant-like Hexapod Robot </p>
+                            <p><strong>GPA:</strong> <span>3.29 / 4.0</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Projects -->
+        <section id="projects" class="projects-section">
+            <h2>Projects</h2>
+            <div class="projects-container">
+
+                <div class="project-card">
+                <div class="project-content">
+                    <h3>Development of Ant-like Hexapod Robot</h3>
+                    <ul>
+                    <li>Designed and built a six-legged walking robot inspired by ant locomotion, with 3 DOF per leg.</li>
+                    <li>Developed control algorithms utilizing both forward kinematics and inverse kinematics for leg movements.</li>
+                    <li>Experimented with various gait patterns and analyzed performance in terms of speed, distance, and stability.</li>
+                    </ul>
+                    <div class="skill-tags">
+                    <span>Robotics</span><span>Kinematics</span><span>Embedded C++</span><span>CAD</span>
+                    </div>
+                </div>
+                </div>
+
+                <div class="project-card">
+                <div class="project-content">
+                    <h3>Semantic 3D Point Cloud on Lunar Terrain Mapping</h3>
+                    <ul>
+                    <li>Developed a semantic 3D point cloud by integrating 3D point clouds from ORB-SLAM3 with semantic segmentation masks.</li>
+                    <li>Labeled each point with corresponding semantic categories (U-Net + VGG16), enhancing geometric information.</li>
+                    <li>Demonstrated improved performance compared to using semantic segmentation or ORB-SLAM3 alone.</li>
+                    </ul>
+                    <div class="skill-tags">
+                    <span>Python</span><span>PyTorch</span><span>ORB-SLAM3</span><span>U-Net</span><span>3D Vision</span>
+                    </div>
+                </div>
+                </div>
+
+                <div class="project-card">
+                <div class="project-content">
+                    <h3>Autonomous Drone for Geological Mapping and Landing</h3>
+                    <ul>
+                    <li>Developed a ROS2 node for autonomous survey using PX4 SITL and onboard RGB-D input.</li>
+                    <li>Performed real-time environment mapping via ORB-SLAM and logged 3D terrain data for post-analysis.</li>
+                    <li>Detected geological features and optimized landing maneuvers.</li>
+                    </ul>
+                    <div class="skill-tags">
+                    <span>ROS2</span><span>PX4</span><span>Python</span><span>Mapping</span>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+            </section>
+
+        <!-- SECTION 4: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+                Experience across robotics software, control and learning-based methods, simulation, and hardware prototyping.
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <div class="img-box"><img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" alt="Python"></div>
+                    <span>Python</span>
+                </div>
+                
+                <div class="cell">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/b/bb/Ros_logo.svg" alt="ROS2" width="50">
+                    <span>ROS2</span>
+                </div>
+
+                <div class="cell">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/2/21/Matlab_Logo.png" alt="MATLAB logo" width="50">
+                    <span>MATLAB</span>
+                </div>
+
+                <div class="cell">
+                    <div class="img-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Simulink_Logo_%28non-wordmark%29.png/960px-Simulink_Logo_%28non-wordmark%29.png?20220406131749" alt="Simulink"></div>
+                    <span>Simulink</span>
+                </div>
+                
+                <div class="cell">
+                    <div class="img-box"><img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg" alt="Arduino"></div>
+                    <span>Arduino</span>
+                </div>
+
+                <div class="cell">
+                    <div class="img-box"><img src="https://upload.wikimedia.org/wikipedia/en/c/cb/Raspberry_Pi_Logo.svg" alt="Raspberry Pi"></div>
+                    <span>Raspberry Pi</span>
+                </div>
+
+                <div class="cell">
+                    <div class="img-box"><img src="https://images.seeklogo.com/logo-png/31/2/gazebo-logo-png_seeklogo-317144.png" alt="Gazebo"></div>
+                    <span>Gazebo</span>
+                </div>
+
+                <div class="cell">
+                    <div class="img-box"><img src="https://upload.wikimedia.org/wikipedia/commons/1/10/PyTorch_logo_icon.svg" alt="PyTorch"></div>
+                    <span>PyTorch</span>
+                </div>
+
+                <div class="cell">
+                    <div class="img-box"><img src="https://upload.wikimedia.org/wikipedia/commons/a/af/Tux.png" alt="Linux"></div>
+                    <span>Linux</span>
+                </div>
+
+                <div class="cell">
+                    <div class="img-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Windows_logo_-_2021.svg/960px-Windows_logo_-_2021.svg.png?20220927154043" alt="Windows"></div>
+                    <span>Windows</span>
+                </div>
+
+                <div class="cell">
+                    <div class="img-box"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png" alt="Git"></div>
+                    <span>Git</span>
+                </div>
+
+                <div class="cell">
+                    <div class="img-box"><img src="https://wandb.ai/logo.png" alt="W&B"></div>
+                    <span>W&B</span>
+                </div>
+
+                <div class="cell">
+                    <div class="img-box"><img src="data:image/png;base64,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" alt="Fusion360"></div>
+                    <span>Fusion360</span>
+                </div>
+
+                <div class="cell">
+                    <div class="img-box"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/d/d2/SolidWorks_Logo.svg/250px-SolidWorks_Logo.svg.png?20130509090050" alt="SolidWorks"></div>
+                    <span>SolidWorks</span>
+                </div>
+
+                
+                
+            </div>
+        </section>
+
+        <!-- SECTION 5: Contact -->
+        <section id="contact" class="contact-section">
+            <h2>Contact</h2>
+
+            <div class="group">
+                
+
+                <form>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+
+                    <label for="message">Message</label>
+                    <textarea id="message" cols="30" rows="10"></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
