@@ -128,8 +128,14 @@
             <div class="projects-container">
 
                 <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/hexapod_demo.gif" alt="Hexapod Robot Demo">
+                    </div>
                 <div class="project-content">
                     <h3>Development of Ant-like Hexapod Robot</h3>
+                    <a href="https://github.com/knamatame0729/AntLocomotion" target="_blank" class="code-btn">
+                        <i class="fa-brands fa-github"></i> Code
+                    </a>
                     <ul>
                     <li>Designed and built a six-legged walking robot inspired by ant locomotion, with 3 DOF per leg.</li>
                     <li>Developed control algorithms utilizing both forward kinematics and inverse kinematics for leg movements.</li>
@@ -142,22 +148,34 @@
                 </div>
 
                 <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/semantic_point_cloud.gif" alt="Semantic Point Cloud Demo">
+                    </div>
                 <div class="project-content">
-                    <h3>Semantic 3D Point Cloud on Lunar Terrain Mapping</h3>
+                    <h3>Semantic 3D Point Cloud Mapping</h3>
+                    <a href="https://github.com/knamatame0729/ORBSLAM3-Semantic-Mapping" target="_blank" class="code-btn">
+                        <i class="fa-brands fa-github"></i> Code
+                    </a>
                     <ul>
                     <li>Developed a semantic 3D point cloud by integrating 3D point clouds from ORB-SLAM3 with semantic segmentation masks.</li>
                     <li>Labeled each point with corresponding semantic categories (U-Net + VGG16), enhancing geometric information.</li>
                     <li>Demonstrated improved performance compared to using semantic segmentation or ORB-SLAM3 alone.</li>
                     </ul>
                     <div class="skill-tags">
-                    <span>Python</span><span>PyTorch</span><span>ORB-SLAM3</span><span>U-Net</span><span>3D Vision</span>
+                    <span>Python</span><span>PyTorch</span><span>ORB-SLAM3</span><span>U-Net</span><span>3D Perception</span>
                     </div>
                 </div>
                 </div>
 
                 <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/VERT_orb_slam3_mapping.gif" alt="ORB-SLAM3 Demo">
+                    </div>
                 <div class="project-content">
                     <h3>Autonomous Drone for Geological Mapping and Landing</h3>
+                    <a href="https://github.com/knamatame0729/RAS-SES-598-Space-Robotics-and-AI/tree/main/assignments/terrain_mapping_drone_control" target="_blank" class="code-btn">
+                        <i class="fa-brands fa-github"></i> Code
+                    </a>
                     <ul>
                     <li>Developed a ROS2 node for autonomous survey using PX4 SITL and onboard RGB-D input.</li>
                     <li>Performed real-time environment mapping via ORB-SLAM and logged 3D terrain data for post-analysis.</li>
@@ -165,6 +183,66 @@
                     </ul>
                     <div class="skill-tags">
                     <span>ROS2</span><span>PX4</span><span>Python</span><span>Mapping</span>
+                    </div>
+                </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/cart_pole_rl.gif" alt="CartPole PPO Demo">
+                    </div>
+                <div class="project-content">
+                    <h3>Cart Pole Swing-Up Reinforcement Learning</h3>
+                    <a href="https://github.com/knamatame0729/Cart-Pole-RL-Control" target="_blank" class="code-btn">
+                        <i class="fa-brands fa-github"></i> Code
+                    </a>
+                    <ul>
+                    <li>Developed a reinforcement learning controller for the Cart-Pole swing-up task, achieving upright balance while keeping the cart near the center.</li>
+                    <li>Used Proximal Policy Optimization (PPO) to control a nonlinear, underactuated system with continuous actions.</li>
+                    <li>Demonstrated that reinforcement learning effectively learns both swing-up and balance control behaviors.</li>
+                    </ul>
+                    <div class="skill-tags">
+                    <span>Genesis</span><span>ROS2</span><span>Python</span><span>Reinforcement Learning</span>
+                    </div>
+                </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/policy_map.png" alt="Grid World Q-Learning Demo">
+                    </div>
+                <div class="project-content">
+                    <h3>Grid World Q-Learning</h3>
+                    <a href="https://github.com/knamatame0729/GridWorld_QLearning" target="_blank" class="code-btn">
+                        <i class="fa-brands fa-github"></i> Code
+                    </a>
+                    <ul>
+                    <li>Implemented a Q-learning–based agent for the 3×4 Gridworld problem to learn an optimal policy.</li>
+                    <li>Modeled a stochastic environment with probabilistic action outcomes, including goal, losing, and wall states.</li>
+                    <li>Tracked training performance and learning dynamics using Weights & Biases (W&B).</li>
+                    </ul>
+                    <div class="skill-tags">
+                    <span>Q-Learning</span><span>W&B</span><span>Python</span><span>Reinforcement Learning</span>
+                    </div>
+                </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="images/coordinated-frontier-sim.gif" alt="Coordinated Frontier Demo">
+                    </div>
+                <div class="project-content">
+                    <h3>Coordinated Frontier-Based Multi-Robot Exploration</h3>
+                    <a href="https://github.com/knamatame0729/coordinated-frontier-sim" target="_blank" class="code-btn">
+                        <i class="fa-brands fa-github"></i> Code
+                    </a>
+                    <ul>
+                    <li>Implemented a coordinated frontier-based exploration strategy for multi-robot systems in MATLAB using occupancy grid mapping and lidar sensing.</li>
+                    <li>Designed a shared exploration architecture with frontier detection, distributed goal selection, A* path planning, and conflict-free frontier reservation.</li>
+                    <li>nalyzed performance across 2-, 3-, and 4-robot teams through simulations</li>
+                    </ul>
+                    <div class="skill-tags">
+                    <span>MATLAB</span><span>Swarm Robotics</span><span>Path Planning</span><span>Frontier-Based Exploration</span>
                     </div>
                 </div>
                 </div>
@@ -260,22 +338,28 @@
             <h2>Contact</h2>
 
             <div class="group">
-                
 
-                <form>
+                <form action="https://formspree.io/f/xeeonjlz" method="POST">
                     <label for="name">Name</label>
-                    <input type="text" id="name">
+                    <input type="text" id="name" name="name" required>
 
                     <label for="email">Email</label>
-                    <input type="email" id="email">
+                    <input type="email" id="email" name="email" required>
 
                     <label for="message">Message</label>
-                    <textarea id="message" cols="30" rows="10"></textarea>
+                    <textarea id="message" name="message" cols="30" rows="10" required></textarea>
 
                     <button type="submit">Send Message</button>
                 </form>
             </div>
         </section>
     </main>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-center">
+                <p>&copy; 2026 Kaito Namatame</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
