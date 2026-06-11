@@ -247,6 +247,11 @@ section h2::after {
     object-fit: contain;
 }
 
+.unh-logo {
+    max-width: 150%;
+    max-height: 150%;
+}
+
 .edu-content {
     flex-grow: 1;
     width: 100%;
